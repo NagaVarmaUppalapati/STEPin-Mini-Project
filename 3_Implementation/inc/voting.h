@@ -7,5 +7,5 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-void totalvotes(int,int,char*);
+void displayvotes(int,int,char*);
 #endif
