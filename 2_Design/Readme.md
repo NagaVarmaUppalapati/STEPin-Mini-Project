@@ -10,4 +10,4 @@
 
 --- TBD Structural and Behavioural Diagram
 ![FeaturesLevelStructuralDiagram](Link to Pic)
-![FeaturesBehaviouralDiagram](Link to Pic)
+![FeaturesBehaviouralDiagram](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/2_Design/lowlevel.png)
