@@ -1,6 +1,8 @@
 PROJ_NAME = a
 BUILD_DIR = src
 INC_H = inc
+
+SRC = src/voting.c
 #To check if the OS is windows or linux and set the executable file extension and delete command accordingly
 ifdef OS
    RM = del /q
@@ -15,7 +17,7 @@ else
 endif
 
 all:$(BUILD_DIR)
-	gcc -I $(INC_H) voting.c -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
+	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 run: all
 	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
