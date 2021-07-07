@@ -16,7 +16,7 @@
    - The reduction in organizational and implementation costs significantly increases the efficiency of election management compared to traditional paper election.
 
 ## Cost and Features and Timeline
--- This was a costless application and we have features like 1.Add candidate 2.Find the vote count 3. Find leading candidate 
+-- This was a costless application and we have features like 1.For voting 2.Add candidate 3.List of voters 4.Live count 5.List of Candidates 6.Exit 
 ## Defining Our System
 -- This application can store the all votes. It can store the all the candidate details, such as their names. It can store all voter id’s and their details also.
 ## SWOT ANALYSIS
