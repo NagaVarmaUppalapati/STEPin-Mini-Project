@@ -18,9 +18,9 @@
 ## Cost and Features and Timeline
 -- This was a costless application and we have features like 1.Add candidate 2.Find the vote count 3. Find leading candidate 
 ## Defining Our System
-    -- This application can store the all votes. It can store the all the candidate details, such as their names. It can store all voter id’s and their details also.
+-- This application can store the all votes. It can store the all the candidate details, such as their names. It can store all voter id’s and their details also.
 ## SWOT ANALYSIS
-(https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/1_Requirements/swot.png)
+![SWOT](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/1_Requirements/swot.png)
 
 # 4W&#39;s and 1&#39;H
 
