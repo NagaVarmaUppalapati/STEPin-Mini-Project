@@ -1,5 +1,5 @@
 PROJ_NAME = a
-BUILD_DIR = src
+BUILD_DIR = build
 INC_H = inc
 
 SRC = src/voting.c
