@@ -20,8 +20,7 @@
 
 	printf("\n\t\t\t\t\t\t     ANDHRA PRADESH\n");
 	printf("------------------------------------------------------------------------------------------------------------------------\n\n");
-	printf("\t\t\t\t\t  WELCOME TO THE ELECTION MANAGEMENT APP\n\n");
-	printf("\t\t\t\t\t\t  ************************\n");
+	printf("\t\t\t\t\t  WELCOME TO THE ONLINE VOTING SYSTEM\n\n");
 	printf("\n\n\n");
 	}
 
@@ -225,7 +224,7 @@ int main()
 			{
 				if(fscanf(fp3,"%d",&num)>0)
 				{
-					totalvotes(m,num,cand);
+					displayvotes(m,num,cand);
 					
 					m=m+1;
 				}
