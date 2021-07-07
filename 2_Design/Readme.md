@@ -3,8 +3,8 @@
 ## High Level Design 
 
 --- TBD Structural and Behavioural Diagram
-![HighLevelStructuralDiagram](Link to Pic)
-![HighLevelBehaviouralDiagram](Link to Pic)
+![HighLevelStructuralDiagram](Linc To Pic)
+![HighLevelBehaviouralDiagram](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/2_Design/highlevel.png)
 
 ## Low Level Design 
 
