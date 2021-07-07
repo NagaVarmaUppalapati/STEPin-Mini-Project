@@ -20,7 +20,7 @@
 ## Defining Our System
     -- This application can store the all votes. It can store the all the candidate details, such as their names. It can store all voter id’s and their details also.
 ## SWOT ANALYSIS
--- content
+(https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/1_Requirements/swot.png)
 
 # 4W&#39;s and 1&#39;H
 
