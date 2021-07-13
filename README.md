@@ -4,15 +4,11 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI - Build Status](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/c-cpp.yml/badge.svg)]
-(https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/c-cpp.yml) | 
-[![Code Quality - Static Code - Cppcheck](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/cppcheck.yml/badge.svg)]
-(https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/cppcheck.yml) 
+[![C/C++ CI - Build Status](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/c-cpp.yml) | 
+[![Code Quality - Static Code - Cppcheck](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/cppcheck.yml) 
 [![Dynamic Valgrind](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml)| 
-[![Unit Testing - Unity](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/unity.yml/badge.svg)]
-(https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/unity.yml)| 
-[![Contribution Check - Git Inspector](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/gitinspector.yml/badge.svg)]
-(https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/gitinspector.yml)
+[![Unit Testing - Unity](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/unity.yml)| 
+[![Contribution Check - Git Inspector](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/gitinspector.yml)
 
 
 ## Folder Structure
