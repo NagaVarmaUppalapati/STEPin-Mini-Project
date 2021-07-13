@@ -1,9 +1,9 @@
 # Requirements
-## Introduction
- -- In the wake of pandemic a feeling of rapture about internet casting a ballot could be felt in numerous nations and political race master networks the same. All things considered, this appeared to be the sensible next boondocks of the web: making decisions more advantageous, open and cheaper.This project plans to take care of a couple of issues related with the conventional in-person casting a ballot framework by concocting an online based democratic framework where the client doesn't need to go to the surveying stall to project their votes ,rather do it from any work area/PC that has web availability.
 
-## Research
--- This project report includes four sections, introduction, background, system design, and testing and result. The background introduces E-voting system features, challenges, as well as requirements. It also explains cryptography related to Paillier 3 encryption and SSL protocol to communicate between a client and a server. Next, the section on system design is a main part of the report, which includes our design about a secure voting system. The next section is about testing and showing how the system design secures the voting system. The last section presents the future work of the project.
+![Online Voting System](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/5_ImagesAndVideos/OnlineVotingSystem.png)
+
+## Introduction
+ - As a result of pandemic, online voting system became the euphoria across several countries. After all, it seemed like a logical next step for the internet and it makes elections more convenient, accessible and cheaper. This project seeks to solve a few problems associated with the traditional in-person voting system by creating an online voting system in which the users do not have to go to the polling booth to cast their votes, instead users can cast thier votes from any desktop/laptop with Internet access.
 
 ## BENEFITS
   1. Vote at any time from anywhere
@@ -16,11 +16,13 @@
    - The reduction in organizational and implementation costs significantly increases the efficiency of election management compared to traditional paper election.
 
 ## Cost and Features and Timeline
--- This was a costless application and we have features like 1.For voting 2.Add candidate 3.List of voters 4.Live count 5.List of Candidates 6.Exit 
+- This was a costless application and we have features like 1.For voting 2.Add candidates 3.List of voters 4.List of Candidates 5.Live count  6.Exit 
+
 ## Defining Our System
--- This application can store the all votes. It can store the all the candidate details, such as their names. It can store all voter id’s and their details also.
+- This application can store all votes. It can store all the candidate details, such as their names and it can store all voters ids and their details also.
+
 ## SWOT ANALYSIS
-![SWOT](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/1_Requirements/swot.png)
+![SWOT](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/5_ImagesAndVideos/SWOT.png)
 
 # 4W&#39;s and 1&#39;H
 
@@ -30,7 +32,7 @@
 
 ## What:
 
-**Going to the polling booth to vote becomes difficult when there is a pandemic like COVID-19.Due to this the turnout for the election will exponentially reduce.**
+**Going to the polling booth to vote becomes difficult when there is a pandemic like COVID-19. Due to this the turnout for the election will exponentially reduce.**
 
 ## When:
 
@@ -46,10 +48,19 @@
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+ID |  Description   |   Status (Implemented/Future)
+---|----------------|------------------------------
+HLR1 |  Online Voting System | Implemented 
+HLR2 |  Graphical User Interface | Future 
+
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+ID |  Description   |  HLR ID | Status (Implemented/Future)
+---|----------------|---------|----------------------------
+LLR1 |  Vote for a particular candidate | HLR1 | Implemented
+LLR2 |  User shall add new candidates | HLR1 | Implemented
+LLR3 |  View the list Of voters | HLR1 | Implemented
+LLR4 |  View the list Of candidates | HLR1 | Implemented
+LLR5 |  View the votes received by each candidate(Live Count) | HLR1 | Implemented
+
