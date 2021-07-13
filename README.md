@@ -4,7 +4,7 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
 [![C/C++ CI - Build Status](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/cppcheck.yml) [![Dynamic Valgrind](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml)| [![Unit Testing - Unity](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/gitinspector.yml)
 
-![OnlineVotingSystem](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/1_Requirements/OnlineVotingSystem.png)
+![OnlineVotingSystem](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/5_ImagesAndVideos/OnlineVotingSystem.png)
 
 # Introduction
 - As a result of pandemic, online voting system became the euphoria across several countries. After all, it seemed like a logical next step for the internet and it makes elections more convenient, accessible and cheaper. This project seeks to solve a few problems associated with the traditional in-person voting system by creating an online voting system in which the users do not have to go to the polling booth to cast their votes, instead users can cast thier votes from any desktop/laptop with Internet access.
@@ -16,6 +16,7 @@ Folder             | Description
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
+`5_ImagesAndVideos`   | Contains Images And Videos
 
 ## Contributors List and Summary
 
