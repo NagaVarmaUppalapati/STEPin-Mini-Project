@@ -11,10 +11,10 @@
 
 | **Test ID** | **H ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|----------|----------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       | H_01     | Vote for a particular candidate | Data | Vote Polled | Vote Polled | Requirement based |
-|  L_02       | H_01     | User shall add new candidates | Data | Candidate added | Candidate added | Requirement based |
+|  L_01       | H_01     | Vote for a particular Candidate | Data | Vote Polled | Vote Polled | Requirement based |
+|  L_02       | H_01     | User shall add new Candidates | Data | Candidate added | Candidate added | Requirement based |
 |  L_03       | H-01     | View the list of Voters |  Data | List of Voters | List Of Voters | Requirement based |
-|  L_04       | H_01     | View the list of Candidates |  Data | List of Candidates | List Of candidates | Requirement based |
+|  L_04       | H_01     | View the list of Candidates |  Data | List of Candidates | List Of Candidates | Requirement based |
 |  L_05       | H_01     | View the votes received by each Candidate | Data | Live Count | Live Count | Requirement based |
 |  L_06       | H_01     | User wants to exit | Data | Exit | Exit | Requirement based |
 
