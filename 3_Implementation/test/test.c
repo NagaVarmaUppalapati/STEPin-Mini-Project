@@ -1,3 +1,13 @@
+/**
+ * @file test.c
+ * @author Naga Varma Uppalapati (nagavu@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-07-14
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "unity.h"
 #include "voting.h"
 
@@ -48,9 +58,6 @@ int main(void)
     RUN_TEST(test_livecount);
     
     
-
-    
-
     /* Close the Unity Test Framework */
     return UNITY_END();
 }
