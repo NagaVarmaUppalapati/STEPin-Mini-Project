@@ -1,9 +1,10 @@
-PROJ_NAME = a
+PROJ_NAME = Voting
 BUILD_DIR = build
 INC_H = -Iinc\
 -Iunity\
 
-SRC = src/heading.c\
+SRC = voting.c\
+src/heading.c\
 test/test.c\
 unity/unity.c
 
@@ -19,16 +20,24 @@ else
 	  EXEC = out
    endif
 endif
-TEST_OUTPUT = $(BUILD_DIR)/test_$(PROJ_NAME).out
+TEST_OUTPUT = $(BUILD_DIR)/$(PROJ_NAME).out
 all:$(BUILD_DIR)
-	gcc $(INC_H) $(SRC) voting.c -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
+	gcc $(INC_H) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 run: all
 	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 test:$(BUILD)
-	gcc $(INC_H) $(SRC) voting.c -o $(TEST_OUTPUT)
+	gcc $(INC_H) $(SRC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
+
+valgrind:$(BUILD)
+	valgrind ./$(TEST_OUTPUT)
+
+coverageCheck:$(BUILD)
+	gcc -fprofile-arcs -ftest-coverage -fPIC -O0  $(INC_H) $(SRC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
+
 
 
 $(BUILD_DIR):
