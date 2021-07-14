@@ -1,13 +1,10 @@
 # Design
 
-## High Level Design 
+## Structural Diagram
 
---- TBD Structural and Behavioural Diagram
-![HighLevelStructuralDiagram](Linc To Pic)
-![HighLevelBehaviouralDiagram](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/2_Design/highlevel.png)
+![StructuralDiagram](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/5_ImagesAndVideos/Structural.png)
 
-## Low Level Design 
 
---- TBD Structural and Behavioural Diagram
-![FeaturesLevelStructuralDiagram](Link to Pic)
-![FeaturesBehaviouralDiagram](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/2_Design/lowlevel.png)
+## Behavioural Diagram 
+
+![BehaviouralDiagram](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/5_ImagesAndVideos/Behavioural.png)
