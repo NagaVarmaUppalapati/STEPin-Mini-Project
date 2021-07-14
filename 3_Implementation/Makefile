@@ -19,7 +19,7 @@ else
 	  EXEC = out
    endif
 endif
-TEST_OUTPUT = $(BUILD_DIR)/$(PROJ_NAME).out
+TEST_OUTPUT = $(BUILD_DIR)/test_$(PROJ_NAME).out
 all:$(BUILD_DIR)
 	gcc $(INC_H) $(SRC) voting.c -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
