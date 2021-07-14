@@ -25,8 +25,14 @@ all:$(BUILD_DIR)
 
 run: all
 	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
+
+test:$(BUILD)
+	gcc $(INC_H) $(SRC) voting.c -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
+
 valgrind:
 	valgrind ./$(TEST_OUTPUT)
+
 
 
 $(BUILD_DIR):
