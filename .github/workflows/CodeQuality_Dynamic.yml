@@ -1,9 +1,9 @@
 name: CodeQuality Dynamic Code Analysis Valgrind
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -19,5 +19,5 @@ jobs:
     - name: make test
       run: make -C 3_Implementation/ test
     - name: make valgrind
-      run: valgrind ./3_Implementation/build/a.out
+      run: valgrind ./3_Implementation/build/test_a.out
         
