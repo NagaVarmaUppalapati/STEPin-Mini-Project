@@ -41,9 +41,10 @@ test:$(BUILD)
 valgrind:$(BUILD)
 	valgrind ./$(TEST_OUTPUT)
 
-coverage:$(SRC)
-	gcc -fprofile-arcs -ftest-coverage $(INC_H) $(SRC) -o $(TEST_OUTPUT)
+coverage:${PROJ_NAME} $(BUILD_DIR)
+	gcc -fprofile-arcs -ftest-coverage -fPIC  $(SRC) $(INC_H) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
+	gcov -a $(SRC) -o .
 
 
 # Remove all the built files, invoke by `make clean`
