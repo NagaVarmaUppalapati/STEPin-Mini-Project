@@ -2,7 +2,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI - Build Status](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/cppcheck.yml) [![Dynamic Valgrind](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml)| [![Unit Testing - Unity](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/gitinspector.yml)
+[![C/C++ CI - Build Status](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/cppcheck.yml) ![Code Quality Score](https://www.code-inspector.com/project/25229/score/svg) [![Dynamic Valgrind](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml)  ![Code Grade](https://www.code-inspector.com/project/25229/status/svg) | [![Unit Testing - Unity](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/unity.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/actions/workflows/gitinspector.yml)
 
 ![OnlineVotingSystem](https://github.com/NagaVarmaUppalapati/STEPin-Mini-Project/blob/main/5_ImagesAndVideos/OnlineVotingSystem.png)
 
@@ -22,7 +22,7 @@ Folder             | Description
 
 SF ID. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-313574 | Naga Varma Uppalapati  | Online Voting Management    | No     | No   |6   |6         
+313574 | Naga Varma Uppalapati  | Online Voting System    | No     | No   |6   |6         
 
 ## Challenges Faced and How Was It Overcome
 
