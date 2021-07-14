@@ -58,9 +58,10 @@ HLR2 |  Graphical User Interface | Future
 ##  Low level Requirements:
 ID |  Description   |  HLR ID | Status (Implemented/Future)
 ---|----------------|---------|----------------------------
-LLR1 |  Vote for a particular candidate | HLR1 | Implemented
-LLR2 |  User shall add new candidates | HLR1 | Implemented
-LLR3 |  View the list Of voters | HLR1 | Implemented
-LLR4 |  View the list Of candidates | HLR1 | Implemented
-LLR5 |  View the votes received by each candidate(Live Count) | HLR1 | Implemented
+LLR1 |  Vote for a particular Candidate | HLR1 | Implemented
+LLR2 |  User shall add new Candidates | HLR1 | Implemented
+LLR3 |  View the list Of Voters | HLR1 | Implemented
+LLR4 |  View the list Of Candidates | HLR1 | Implemented
+LLR5 |  View the votes received by each Candidate(Live Count) | HLR1 | Implemented
+LLR6 |  User wants to exit | HLR1 | Implemented
 
