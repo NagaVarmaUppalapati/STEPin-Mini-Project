@@ -19,12 +19,15 @@ else
 	  EXEC = out
    endif
 endif
-
+TEST_OUTPUT = $(BUILD_DIR)/$(PROJ_NAME).out
 all:$(BUILD_DIR)
 	gcc $(INC_H) $(SRC) voting.c -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 run: all
 	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
+valgrind:
+	valgrind ./$(TEST_OUTPUT)
+
 
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
