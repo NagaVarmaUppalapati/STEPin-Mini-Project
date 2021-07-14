@@ -1,3 +1,13 @@
+/**
+ * @file heading.c
+ * @author Naga Varma Uppalapati (nagavu@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-07-14
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "stdio.h"
 #include "stdlib.h"
 #include "voting.h"
