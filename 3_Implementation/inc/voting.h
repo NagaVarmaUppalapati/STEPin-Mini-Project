@@ -1,5 +1,11 @@
 /**
+ * @file voting.h
+ * @author Naga Varma Uppalapati (nagavu@gmail.com)
  * @brief 
+ * @version 0.1
+ * @date 2021-07-14
+ * 
+ * @copyright Copyright (c) 2021
  * 
  */
 #ifndef __VOTING_H__
