@@ -21,6 +21,7 @@ else
    endif
 endif
 TEST_OUTPUT = $(BUILD_DIR)/$(PROJ_NAME).out
+COVERAGE_OUTPUT = $(BUILD_DIR)/$(PROJ_NAME).exe
 all:$(BUILD_DIR)
 	gcc $(INC_H) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
@@ -35,8 +36,8 @@ valgrind:$(BUILD)
 	valgrind ./$(TEST_OUTPUT)
 
 coverageCheck:$(BUILD)
-	gcc -fprofile-arcs -ftest-coverage -fPIC -O0  $(INC_H) $(SRC) -o $(TEST_OUTPUT)
-	./$(TEST_OUTPUT)
+	gcc -fprofile-arcs -ftest-coverage -fPIC -O0  $(INC_H) $(SRC) -o $(COVERAGE_OUTPUT)
+	./$(COVERAGE_OUTPUT)
 
 
 
